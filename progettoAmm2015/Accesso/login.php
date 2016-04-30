@@ -36,19 +36,19 @@
 							{
 									
 									//gestione dei privilegi degli utenti
-									if($dblivello=='U'){ // controllo se è un utente
+									if($dblivello=='A'){ // controllo se è un utente
+										//sessione amministratore
+										session_start();
+										$_SESSION['sess_user']=$user;
+										header("Location: pagAdmin.php");
+
+										
+									}else{
 										
 										//sessione utenti
 										session_start();
 										$_SESSION['sess_user']=$user;
 										header("Location: pagUtenti.php");
-										
-									}else{
-										
-										//sessione amministratore
-										session_start();
-										$_SESSION['sess_user']=$user;
-										header("Location: pagAdmin.php");
 										
 									}
 							}
