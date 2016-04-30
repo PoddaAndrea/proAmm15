@@ -121,7 +121,7 @@ if(!isset($_SESSION["sess_user"])){
 	<?php // disturbo ossessivo compulsivo del copia e incolla...connessioni al database?>
 			<textarea id="adm_home" disabled><?php
 									$con=mysql_connect('localhost','poddaAndrea','paguro8228') or die(mysql_error());
-									mysql_select_db('amm15_poddaAndrea') or die("DB inesistente");
+									mysql_select_db('amm15_poddaAndrea',$con) or die("DB inesistente");
 									
 									$query=mysql_query("SELECT * FROM amministrazione");
 									
@@ -148,7 +148,7 @@ if(!isset($_SESSION["sess_user"])){
 			
 			<textarea id="adm_ado" disabled><?php
 									$con=mysql_connect('localhost','poddaAndrea','paguro8228') or die(mysql_error());
-									mysql_select_db('amm15_poddaAndrea') or die("DB inesistente");
+									mysql_select_db('amm15_poddaAndrea',$con) or die("DB inesistente");
 									
 									$query=mysql_query("SELECT * FROM amministrazione");
 									
@@ -176,7 +176,7 @@ if(!isset($_SESSION["sess_user"])){
 				
 		<textarea id="adm_don" disabled><?php
 									$con=mysql_connect('localhost','poddaAndrea','paguro8228') or die(mysql_error());
-									mysql_select_db('amm15_poddaAndrea') or die("DB inesistente");
+									mysql_select_db('amm15_poddaAndrea',$con) or die("DB inesistente");
 									
 									$query=mysql_query("SELECT * FROM amministrazione");
 									

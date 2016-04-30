@@ -111,7 +111,7 @@ if(!isset($_SESSION["sess_user"])){
 				
 
 				$con=mysql_connect('localhost','poddaAndrea','paguro8228') or die(mysql_error());
-				mysql_select_db('amm15_poddaAndrea') or die("il database non e' disponibile");
+				mysql_select_db('amm15_poddaAndrea',$con) or die("il database non e' disponibile");
 				
 				$query=mysql_query("SELECT * FROM registrazione WHERE username = '$user'");
 				

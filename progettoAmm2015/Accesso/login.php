@@ -11,8 +11,9 @@
 						$pass=$_POST['Password'];
 						$liv='U';
 					//connessione al database
+					
 						$con=mysql_connect('localhost','poddaAndrea','paguro8228') or die(mysql_error());
-						mysql_select_db('amm15_poddaAndrea') or die("Il dataBase non esiste");
+						mysql_select_db('amm15_poddaAndrea',$con) or die("Il dataBase non esiste");
 					//query di selezione (per prelevare tutte le info all'interno del db)
 						$query=mysql_query("SELECT * FROM registrazione WHERE username='".$user."' AND password='".$pass."'");
 						$numrows=mysql_num_rows($query);//conta il numero di righe coinvolta dalla query (
