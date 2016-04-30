@@ -2,7 +2,7 @@
 session_start();
 
 if(!isset($_SESSION["sess_user"])){
-	header("location:Accesso/login.php");
+	header("location:login.php");
 } else {
 
 	$user=$_SESSION["sess_user"];

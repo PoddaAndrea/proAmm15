@@ -43,7 +43,7 @@
 										header("Location: pagAdmin.php");
 
 										
-									}else{
+									}else if($dblivello=='U'){
 										
 										//sessione utenti
 										session_start();
