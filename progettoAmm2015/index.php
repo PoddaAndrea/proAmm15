@@ -9,7 +9,7 @@
 			rel='stylesheet' type='text/css'>
 			<link href="sito-stile.css" rel="stylesheet" type="text/css">
 			<?php include("jQuery/funzioni.php");?>
-			<?php include("Accesso/logout.php")?>
+			
 	
 	
 	</head>
