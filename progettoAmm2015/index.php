@@ -36,7 +36,7 @@
 							<label class="label_2">Username</label><br>
 							<input class="input1" type="text" name="Username"/><br><br>
 							<label class="label_2">Password</label><br>
-							<input class="input2" type="password" name="Password"  /><br><br><br>
+							<input class="input2" type="password" maxlength="8"  name="Password"  /><br><br><br>
 							
 							
 							<button type="Submit" class="submit" name="submit" id="submit" >Accedi</button>
