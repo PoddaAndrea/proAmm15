@@ -15,7 +15,7 @@
 	</head>
 	
 	<body>
-	<?php include("Accesso/login.php");?>
+	<?php include("login.php");?>
 	
 <!--  -->
 				
