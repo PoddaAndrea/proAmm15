@@ -30,7 +30,7 @@ rel='stylesheet' type='text/css'>
 								<input class="inputRegU" type="text" name="Username" id="Username" required/>
 								<br>							
 								<label class="labelReg">Password</label><br>
-								<input class="inputRegP" type="password" name="Password" id="Password"  required/>
+								<input class="inputRegP" type="password" maxlength="8" name="Password" id="Password"  required/>
 								<br>
 								<br>
 								<button type="Submit" class="submit" name="submit" id="submit">Registrati</button>
