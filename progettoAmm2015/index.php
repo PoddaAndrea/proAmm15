@@ -49,7 +49,7 @@
 		<div id="wrapper">
 				
 				
-				<div id="slider"> <img alt="banner" src="banner.png">
+				<div id="slider">
 			
 				<div id="header"></div>
 				
