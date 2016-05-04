@@ -40,7 +40,7 @@
 										//sessione amministratore
 										session_start();
 										$_SESSION['sess_user']=$user;
-										header("Location: pagAdmin.php");
+										header("location:pagAdmin.php");
 
 										
 									}else if($dblivello=='U'){
@@ -48,7 +48,7 @@
 										//sessione utenti
 										session_start();
 										$_SESSION['sess_user']=$user;
-										header("Location: pagUtenti.php");
+										header("location:pagUtenti.php");
 										
 									}
 							}
