@@ -77,7 +77,7 @@ if(!isset($_SESSION["sess_user"])){
 					<li><a href="#dati" class="dati">I miei dati</a></li>
 					<li><a href="#adozioni" class="ado_member">Adozioni</a></li>
 					<li><a href="#donazioni" class="don_member">Donazioni</a></li>
-					<li><a href="Accesso/logout.php" class="log_member">Logout</a></li>
+					<li><a href="logout.php" class="log_member">Logout</a></li>
 									
 				</ul>
 								

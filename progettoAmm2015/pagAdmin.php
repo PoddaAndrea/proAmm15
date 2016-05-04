@@ -113,7 +113,7 @@ if(!isset($_SESSION["sess_user"])){
 		<div id="am">
 			<p>BENVENUTO</p> 
 			<p><?=$_SESSION['sess_user']; ?></br></p>
-			<a href="logout.php">Logout</a></h2>
+			<h2><a href="logout.php">Logout</a></h2>
 		</div>
 	<body>
 	<div>
