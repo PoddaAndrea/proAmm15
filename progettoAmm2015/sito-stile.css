@@ -390,7 +390,7 @@
 	
 	.close_error{
 		outline:none;
-		border:solid 0px white;
+		border:solid 1px white;
 		border-radius: 500px 500px;
 		-moz-border-radius: 500px 500 px;
 		-webkit-border-radius: 500px 500px;
@@ -468,8 +468,8 @@
 	
 	#exit_error{
 		position:relative;
-		top:-90px;
-		left:255px;
+		top: -230px;
+		left:250px;
 	
 	}
 	
@@ -658,21 +658,21 @@
 	#error{
 		
 
-		color: red;
-		background-color:rgba(0,0,0,1);
-		padding:15px;
-		border: 1px solid white;
+		/*color: red;*/
+		/*background-color:rgba(0,0,0,1);*/
+		/*padding:0px;*/
+		/*border: 1px solid white;*/
 		position: absolute;
 		top: 50%;
 		left:48%;
 		margin: -100px 0 0 -100px;
 		z-index:999999;
-		box-shadow: 6px 6px 6px #333333;
+		/*box-shadow: 6px 6px 6px #333333;
 		-moz-box-shadow: 6px 6px 6px #333333;
 		-webkit-box-shadow: 6px 6px 6px #333333;
 		border-radius: 10px;
 		-moz-border-radius: 10px;
-		-webkit-border-radius: 10px;
+		-webkit-border-radius: 10px;*/
 		
 
 		
