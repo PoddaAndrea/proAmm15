@@ -57,53 +57,71 @@
 							
 						} else {
 								//errore1: Username o Password sbagliati
-								echo  "<div id = 'mask_3'></div>
 								
-										<div id='error'>
+								/*echo  "<div id = 'mask_3'></div>
+								<div id='error'>
+								<div id='image_error'>												
+								<img src='image/cane_error.png'>								
+								</div>								
+								<p class='p_error'>USERNAME O PASSWORD ERRATI</p>							
+								<div id='exit_error'>
+								<button type='button' class='close_error'> <img src='image/exit_img.png' width='10 px' height='10 px' ></button>								
+								</div>								
+								</div>";*/
 							
+							echo  "<div id = 'mask_3'></div>
 							
-										<div id='image_error'>
-												
-												<img src='image/cane_error.png'>
+							<div id='error'>
 								
-											</div>
 								
-										<p class='p_error'>USERNAME O PASSWORD ERRATI</p>
+							<div id='image_error'>
 							
-										<div id='exit_error'>
-										<button type='button' class='close_error'> <img src='image/exit_img.png' width='10 px' height='10 px' ></button>
+							<img src='image/img_er1.png'>
+							
+							</div>
+							
 								
-										</div>
-								
-								
-								
-										</div>";
+							<div id='exit_error'>
+							<button type='button' class='close_error'> <img src='image/exit_img.png' width='10 px' height='10 px' ></button>
+							
+							</div>
+
+							</div>";
 								}//fine else
 					
 					
 					} else {
-								//errore 2: non vengono inseriti i dati
-								echo "<div id = 'mask_3'></div>
-										
-										<div id='error'>
-											
-											
-										<div id='image_error'>	
-																					
-												<img src='image/cane_error.png'>
-												
-											</div>
-										
-										<p class='p_error'>TUTTI I CAMPI SONO OBBLIGATORI</p>
-											
-										<div id='exit_error'>
-										<button type='button' class='close_error'> <img src='image/exit_img.png' width='10 px' height='10 px' ></button>
-										
-										</div>
-										
-		
-										
-										</div>";
+							//errore 2: non vengono inseriti i dati
+						/*echo "<div id = 'mask_3'></div>
+						<div id='error'>
+						<div id='image_error'>										
+						<img src='image/cane_error.png'>
+						</div>
+						<p class='p_error'>TUTTI I CAMPI SONO OBBLIGATORI</p>	
+						<div id='exit_error'>
+						<button type='button' class='close_error'> <img src='image/exit_img.png' width='10 px' height='10 px' ></button>
+						</div>
+						</div>";*/
+						
+						echo  "<div id = 'mask_3'></div>
+				
+							<div id='error'>
+						
+						
+							<div id='image_error'>
+				
+							<img src='image/img_er2.png'>
+				
+							</div>
+				
+							<div id='exit_error'>
+							<button type='button' class='close_error'> <img src='image/exit_img.png' width='10 px' height='10 px' ></button>
+				
+							</div>
+				
+				
+				
+							</div>";
 								
 									 
 								
